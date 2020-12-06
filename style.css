@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
   padding: 0;
 }
 
@@ -17,12 +17,14 @@ main {
 
 .step-box {
   width: 90%;
-  margin: auto;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px 30px auto;
   padding: 10px;
   position: relative;
   background-color: #eee;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 .step-img1 {
@@ -61,7 +63,7 @@ main {
 
 footer {
   height: 50px;
-  margin-top: 50px;
+  margin: 50px 0 auto;
   background-color: #aaa;
 }
 
